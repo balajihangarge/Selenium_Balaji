@@ -36,6 +36,7 @@ public class tc_003_addingProductTo_cart_Test extends Base_Test {
 		Thread.sleep(2000);
 		paymentMethodPage.getCashRB().click();
 		Thread.sleep(3000);
+		
 
 		paymentMethodPage.getCashProceedbtn().click();
 
