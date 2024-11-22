@@ -40,7 +40,7 @@ public class tc_003_addingProductTo_cart_Test extends Base_Test {
 		paymentMethodPage.getCashProceedbtn().click();
 
 		webDriverUtility.webPageScreenShot(driver);
-		Thread.sleep(6000);
+		Thread.sleep(7000);
 
 	}
 }
