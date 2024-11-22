@@ -35,7 +35,7 @@ public class tc_003_addingProductTo_cart_Test extends Base_Test {
 		Payment_method_page paymentMethodPage = new Payment_method_page(driver);
 		Thread.sleep(2000);
 		paymentMethodPage.getCashRB().click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 
 		paymentMethodPage.getCashProceedbtn().click();
 
